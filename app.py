@@ -134,4 +134,4 @@ with gr.Blocks(css=css) as demo:
     """)
 
 demo.queue(concurrency_count=1)
-demo.launch()
+demo.launch(server_name='0.0.0.0', show_error=True)
